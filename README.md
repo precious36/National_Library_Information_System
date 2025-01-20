@@ -9,6 +9,9 @@ This document outlines the testing procedures for three .NET 8 projects in a lib
 
 ---
 
+## Architecture
+- Staff Management ERD https://online.visual-paradigm.com/share.jsp?id=333832373737312d32
+
 ## 1. Library Catalogue Service (MongoDB on localhost)
 
 ### Setup
