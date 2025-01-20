@@ -28,6 +28,47 @@ This document outlines the testing procedures for three .NET 8 projects in a lib
 ### Data Models
 - Staff Management Data Models https://online.visual-paradigm.com/share.jsp?id=333832373737312d34
 - Membership and Lending Srvive Data Models https://online.visual-paradigm.com/share.jsp?id=333832373737312d31
+### Library Catalogue Collections
+- LibraryResource
+- {
+  "_id": "ObjectId",
+  "title": "string",
+  "type": "string",
+  "genres": ["string"],
+  "format": "string",
+  "available": "boolean",
+  "borrow_limit": "int",
+  "useOnlyInLibrary": "boolean",
+  "quantity": "int",
+  "available_quantity": "int",
+  "not_available_quantity": "int",
+  "cataloged_by": {
+    "userID": "string",
+    "timestamp": "Date"
+  },
+  "publisher": "string",
+  "author": ["string"],
+  "language": "string",
+  "publication_date": "Date",
+  "edition": "string",
+  "tags": ["string"],
+  "description": "string",
+  "location": "string"
+
+}
+- Publisher
+- {
+  "_id": "ObjectId",
+  "name": "string", 
+  "address": "string", 
+  "contact_number": "string",
+  "email": "string", 
+  "website": "string", 
+  "established_date": "Date", 
+  "created_at": "Date", 
+  "updated_at": "Date" 
+}
+
 
 ## 1. Library Catalogue Service (MongoDB on localhost)
 
