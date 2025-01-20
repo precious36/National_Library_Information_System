@@ -6,6 +6,15 @@ This document outlines the testing procedures for three .NET 8 projects in a lib
 1. **Library Catalogue Service** (MongoDB on localhost)
 2. **Staff Management Service** (MS SQL with JWT Authentication)
 3. **Membership and Lending Service** (MS SQL on localhost)
+##Prerequisites
+
+1. Install .NET 8 SDK on your system.
+2. Install MongoDB Community Edition and ensure it is running on localhost:27017.
+3. Install Microsoft SQL Server and configure it to run locall
+4. Install SQL Server Management Studio (SSMS) to manage databases.
+5. Import the necessary .bacpac files for the databases:
+   - NaLib_Staff_ManagementDB.bacpac
+   - Member_and_LendingBD.bacpac
 
 ---
 
@@ -43,7 +52,7 @@ This document outlines the testing procedures for three .NET 8 projects in a lib
 ### Setup
 - Ensure MS SQL is running locally.
 - Populate the database with sample staff data.
-- Import the database into SQL Server using the `NaLib_Staff_ManagementDB.bacpac` file found in the `database` folder.
+- Import the database into SQL Server using the `NaLib_Staff_ManagementDB.bacpac` file found in the `NaLib_Project_Files` folder.
 
 ### Testing Steps
 
@@ -71,7 +80,7 @@ This document outlines the testing procedures for three .NET 8 projects in a lib
 ### Setup
 - Ensure MS SQL is running locally.
 - Populate the database with sample membership and lending data.
-- Import the database into SQL Server using the `Member_and_LendingBD.bacpac` file found in the `database` folder.
+- Import the database into SQL Server using the `Member_and_LendingBD.bacpac` file found in the `NaLib_Project_Files` folder.
 
 ### Testing Steps
 
