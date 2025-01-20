@@ -108,6 +108,8 @@ This document outlines the testing procedures for three .NET 8 projects in a lib
 #### Authentication
 - Test the login endpoint with valid and invalid credentials.
 - Validate issued JWT tokens.
+- Create use is not protected but its needs RoleId, departmentID, LibraryID which can be access from the database
+- the alraedy existing user credential are Email: pmvula@gmail.com, Password: mvula
 
 #### Authorization
 - Access secure endpoints without a token (should return `401 Unauthorized`).
