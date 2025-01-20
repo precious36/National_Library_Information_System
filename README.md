@@ -10,7 +10,15 @@ This document outlines the testing procedures for three .NET 8 projects in a lib
 ---
 
 ## Architecture
+### System architecture
+- Project is using a microservice architecture
+- architecture diagram https://drive.google.com/file/d/1JpN7YUSoCk1J7ExRJByvLt3DWMCnyZzu/view?usp=sharing
+### ERDs
 - Staff Management ERD https://online.visual-paradigm.com/share.jsp?id=333832373737312d32
+- Membership and Lending Servive ERD https://online.visual-paradigm.com/share.jsp?id=333832373737312d33
+### Data Models
+- Staff Management Data Models https://online.visual-paradigm.com/share.jsp?id=333832373737312d34
+- Membership and Lending Srvive Data Models https://online.visual-paradigm.com/share.jsp?id=333832373737312d31
 
 ## 1. Library Catalogue Service (MongoDB on localhost)
 
