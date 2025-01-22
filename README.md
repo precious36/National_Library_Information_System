@@ -68,13 +68,13 @@ This document outlines the testing procedures for three .NET 8 projects in a lib
   "created_at": "Date", 
   "updated_at": "Date" 
 }
--Authers
+- Authers
 - {
-  "_id": "ObjectId", // Unique identifier for the author
-  "first_name": "string", // First name of the author
-  "last_name": "string", // Last name of the author
-  "created_at": "Date", // Timestamp for when the author record was created
-  "updated_at": "Date" // Timestamp for the last update to the author record
+  "_id": "ObjectId", 
+  "first_name": "string", 
+  "last_name": "string", 
+  "created_at": "Date", 
+  "updated_at": "Date" 
 }
 
 
